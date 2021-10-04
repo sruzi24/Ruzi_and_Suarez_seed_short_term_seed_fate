@@ -1,0 +1,23 @@
+Data used in:
+
+###### NEED TO PUT THE TITLE IN HERE ONCE WE UPDATE IT ####
+
+Selina A. Ruzi and Andrew V. Suarez.
+
+Published in #### WHERE ARE WE SUBMITTING IT TO/ GETTING IT PUBLISHED ####
+
+The Ectatomma ruidum distance deposition file is intended to document the dataset analyzed and to facilitate reanalysis. It includes observation data of how far Ectatomma ruidum moved seeds of Zanthoxylum ekmanii placed at five different sites over multiple replicates from two years of sampling. It also records the deposition location of the seeds, what movement number the observation was, and what color the seed was marked with. Only data from Ectatomma ruidum ants are included. Any site or seed that did not have a movement by Ectatomma ruidum was not retained in the dataset.
+
+1. Number of variables: 10
+2. Number of cases/rows: 51
+3. Variable List: 
+site: the site at which the seed cache was placed. There are five sites at which seed caches were placed in both years sampled.
+rep_num: what replicate at that site the seed cache was. The replicate numbers repeat between years.
+seed_color: what color paint was applied to the seed in order to track individual seeds
+distance_cm: the straight line distance Ectatomma ruidum workers moved seeds
+destination: where the seed was deposited or whether the seed was lost
+ant_species: the ant species that moved the seed. In this dataset only Ectatomma ruidum is considered
+num_foragers: how many Ectatomma ruidum forgers or workers moved the seed. Typically only one worker is needed to move a seed but occasionally there were more than one.
+movement_num: which movement the observation belongs to. Can be one, two, or three as three was the highest movement recorded
+year: the year in which the sampling took place
+ID: combination of year and movement_num separated by a "."
