@@ -34,6 +34,6 @@ Used to determine number of Zanthoxylum ekmanii seeds moved, how far moved, and 
 }
 \examples{
 data(Ruzi_Suarez_data_Ectatomma_ruidum_distance_deposition)
-maybe str(Ruzi_Suarez_data_Ectatomma_ruidum_distance_deposition)
+str(Ruzi_Suarez_data_Ectatomma_ruidum_distance_deposition)
 }
 \keyword{datasets}
