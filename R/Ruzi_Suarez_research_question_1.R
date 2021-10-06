@@ -369,7 +369,7 @@ destinations
 ## - save the figures ####
 
 
-ggsave("Ruzi_Suarez_Figure1b.png", width = 8, height = 4,
+ggsave("Ruzi_Suarez_Figure1b.png", width = 12, height = 4,
        units = "in", dpi = 300, plot = distances_figure,
        path = figure_path)
 
