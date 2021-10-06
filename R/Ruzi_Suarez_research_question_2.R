@@ -357,7 +357,7 @@ mean(seedling_data$density) # 0.8226696 is the mean soil density used
 sd(seedling_data$density) # 0.03997068
 se(seedling_data$density) # 0.0064841
 
-#to compare to the published densities of 0.74
+#to compare to the published density of 0.74
 
 shapiro.test(seedling_data$density)
 #Shapiro-Wilk normality test
@@ -464,4 +464,3 @@ ggsave("Ruzi_Suarez_Figure2a.png", width = 6, height = 3,
 ggsave("Ruzi_Suarez_FigureS1.png", width = 5, height = 4,
        units = "in", dpi = 300, plot = seedling_boxplot,
        path = figure_path)
-

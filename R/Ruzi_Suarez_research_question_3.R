@@ -39,7 +39,7 @@ names(processing_data)
 ## - t-test of damage between the two conditions ####
 
 control_data <- processing_data %>%
-  filter(Control_Colony == "Control") %>%
+  filter(Control_Colony == "Control")
 nrow(control_data) # 41
 
 cont_seeds_percent <- control_data$Seed_damage_percent

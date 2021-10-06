@@ -12,6 +12,7 @@
 library(here)
 library(tidyverse) # includes ggplot2
 library(e1071)
+library(plyr)
 
 # -- set paths ####
 data_path <- here::here("data")
@@ -35,11 +36,52 @@ movement_data <- read_csv(paste(data_path, "Ruzi_Suarez_data_Ectatomma_ruidum_di
 movement_data
 names(movement_data)
 
+overall_data <- read_csv(paste(data_path, "Ruzi_Suarez_data_overall_seed_removal_2hours.csv", sep = "/"),
+         col_types = 
+           cols(
+             Plot = col_character(),
+             Year = col_double(),
+             Rep = col_double(),
+             Side = col_character(),
+             Seeds_placed = col_double(),
+             Seeds_removed = col_double(),
+             Seeds_remaining = col_double(),
+             Date = col_character()))
+nrow(overall_data)
+
 ## - to get the total number of seeds placed over the two years ####
 
 5*5*3 # 5 sites by 5 seeds by 3 replicates for 2015 = 75 seeds
 5*5*2 # 5 sites by 5 seeds by 2 replicates for 2016 = 50 seeds
 75+50 #total number of seeds placed then = 125 seeds 
+
+## - to get the total number of seeds moved after 2 hours ####
+names(overall_data)
+# these could have been moved by workers of any ant species over the 2 hour duration of observation
+
+removal_data <- overall_data %>%
+  # get a proportin of seeds removed to seeds placed
+  mutate(prop = Seeds_removed/Seeds_placed) %>%
+  # to turn that proportion into a percent
+  mutate(percent = prop*100)
+removal_data
+
+se <- function(x) sqrt(var(x)/length(x))
+
+removal_summary <- ddply(removal_data, "Year", summarise,
+                         n=sum(!is.na(percent)),
+                         Mean=mean(percent,na.rm=TRUE),
+                         se=se(percent),
+                         total_removed=sum(Seeds_removed),
+                         total_seeds_placed=sum(Seeds_placed))
+removal_summary
+# Year  n     Mean       se total_removed total_seeds_placed
+#1 2015 15 58.66667 11.45869            44                 75
+#2 2016 10 58.00000 13.80821            29                 50
+ 
+# only needed plyr package for the above code, detach now so that will not
+# interfere with remaining code
+detach("package:plyr", unload = TRUE)
 
 ## - to get the number of seeds moved once, twice, and three times by ER ####
 movement_data %>%
@@ -79,6 +121,7 @@ first_movement %>%
 # and were not lost
 
 # to get the locations of where first movements took seeds
+#counting dropped, ground, and leaf litter all as "dropped"
 first_movement %>%
   count(destination)
 # A tibble: 5 x 2
@@ -109,6 +152,7 @@ second_movement %>%
 # returns 0 rows therefore none were lost
 
 # the destination of the seeds moved a second distance by ER
+#counting dropped, ground, and leaf litter all as "dropped"
 second_movement %>%
   count(destination)
 # A tibble: 4 x 2
@@ -269,8 +313,24 @@ movement_data3 <- movement_data %>%
   add_row(movement_num = "Three", destination2 = "Colony", n = 0, percent = 0) %>%
   add_row(movement_num = "Three", destination2 = "Lost", n = 0, percent = 0)
 
-  
 movement_data3
+# movement_num destination2     n percent
+# <chr>        <chr>        <dbl>   <dbl>
+# 1 One          Colony          28   54.9 
+# 2 One          Dropped          9   17.6 
+# 3 One          Lost             4    7.84
+# 4 Three        Dropped          1    1.96
+# 5 Two          Colony           4    7.84
+# 6 Two          Dropped          5    9.80
+# 7 Two          Lost             0    0   
+# 8 Three        Colony           0    0   
+# 9 Three        Lost             0    0
+
+28 + 4 # 32 into colony
+9 + 1 + 5 # 15 dropped
+4 # 4 lost
+
+
 movement_data3$movement_num <- factor(movement_data3$movement_num, levels=c("One","Two","Three"))
 levels(movement_data3$movement_num) # to change the order of the levels
 movement_data3
