@@ -266,7 +266,7 @@ depth <- ggplot(depth_raw2, aes(x=Chamber, y=Depth, color=Colonyalt))+ #shape=Co
   xlab("Chamber Number")+
   scale_colour_manual(values=c("grey40", "red"), breaks=c("two","one"), labels=c(" ", "SAR843"), guide="none")+
   scale_y_reverse(limits=c(45,-4))+
-  geom_hline(yintercept=7, colour="grey20")+
+  geom_hline(yintercept=7.026, colour="grey20")+
   geom_hline(yintercept=0, colour="brown")+
   annotate("text", x=5.5, size=3, y=-1.5, colour="brown", label="Ground Surface")+
   annotate("text", x=5.5, size=3, y=4, colour="grey20", label="Calculated Maximum\nEmergence Depth" )+
