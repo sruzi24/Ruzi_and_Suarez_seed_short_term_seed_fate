@@ -1,52 +1,52 @@
-site,rep_num,seed_color,distance_cm,destination,ant_species,num_foragers,movement_num,year,ID
-Drayton,3,red,51,colony,Ectatomma ruidum,single,one,2015,2015.one
-Drayton,3,orange,51,colony,Ectatomma ruidum,single,one,2015,2015.one
-Drayton,3,white,51,colony,Ectatomma ruidum,single,one,2015,2015.one
-Drayton,3,pink,51,colony,Ectatomma ruidum,single,one,2015,2015.one
-Drayton,3,yellow,51,colony,Ectatomma ruidum,sinlge,one,2015,2015.one
-AVA,1,yellow,68.5,colony,Ectatomma ruidum,single,one,2015,2015.one
-AVA,1,pink,NA,lost,Ectatomma ruidum,single,one,2015,2015.one
-AVA,1,red,334.5,colony,Ectatomma ruidum,single,one,2015,2015.one
-AVA,1,orange,405.7,colony,Ectatomma ruidum,single,one,2015,2015.one
-AVA,1,NA,127,lost,Ectatomma ruidum,single,one,2015,2015.one
-AVA,3,red,135,dropped,Ectatomma ruidum,single,one,2015,2015.one
-AVA,3,orange,208.5,colony,Ectatomma ruidum,single,one,2015,2015.one
-AVA,3,white,120.3,colony,Ectatomma ruidum,single,one,2015,2015.one
-AVA,3,pink,120.3,colony,Ectatomma ruidum,single,one,2015,2015.one
-AVA,3,yellow,120.3,colony,Ectatomma ruidum,single,one,2015,2015.one
-Zetek,1,red,2,dropped,Ectatomma ruidum,single,one,2015,2015.one
-Zetek,1,orange,1.5,dropped,Ectatomma ruidum,single,one,2015,2015.one
-Zetek,2,red,3.2,dropped,Ectatomma ruidum,single,one,2015,2015.one
-25Ha,1,yellow,244,colony,Ectatomma ruidum,single,one,2015,2015.one
-25Ha,2,orange,70,lost,Ectatomma ruidum,single,one,2015,2015.one
-25Ha,3,orange,108,colony,Ectatomma ruidum,single,one,2015,2015.one
-25Ha,3,white,108,colony,Ectatomma ruidum,single,one,2015,2015.one
-25Ha,3,yellow,NA,lost,Ectatomma ruidum,single,one,2015,2015.one
-AVA,1,red,148.3,colony,Ectatomma ruidum,single,two,2015,2015.two
-AVA,2,yellow,208.5,colony,Ectatomma ruidum,single,two,2015,2015.two
-AVA,3,orange,28,dropped,Ectatomma ruidum,single,two,2015,2015.two
-Drayton,1,white,20,dropped,Ectatomma ruidum,single,one,2016,2016.one
-Drayton,1,white,33.25,colony,Ectatomma ruidum,sinlge,two,2016,2016.two
-Drayton,1,orange,56,colony,Ectatomma ruidum,single,one,2016,2016.one
-Drayton ,1,red,56,colony,Ectatomma ruidum,single,one,2016,2016.one
-Drayton,1,yellow,56,colony,Ectatomma ruidum,single,one,2016,2016.one
-Drayton,1,pink,56,colony,Ectatomma ruidum,single,one,2016,2016.one
-AVA,1,pink,53.5,colony,Ectatomma ruidum,single,one,2016,2016.one
-AVA,1,pink,13,ground,Ectatomma ruidum,single,two,2016,2016.two
-AVA,1,white,53.5,colony,Ectatomma ruidum,single,one,2016,2016.one
-AVA,1,orange,53.5,colony,Ectatomma ruidum,single,one,2016,2016.one
-AVA,1,red,53.5,colony,Ectatomma ruidum,single,one,2016,2016.one
-Zetek,1,orange,3,ground,Ectatomma ruidum,single,one,2016,2016.one
-Zetek,1,orange,2,ground,Ectatomma ruidum,single,two,2016,2016.two
-Zetek,1,white,96.5,colony,Ectatomma ruidum,single,one,2016,2016.one
-Zetek,1,white,4.5,ground,Ectatomma ruidum,single,two,2016,2016.two
-Zetek,1,white,4,ground,Ectatomma ruidum,single,three,2016,2016.three
-25Ha,1,yellow,94,colony,Ectatomma ruidum,single,one,2016,2016.one
-25Ha,1,red,94,colony,Ectatomma ruidum,single,one,2016,2016.one
-25Ha,1,orange,10,ground,Ectatomma ruidum,single,one,2016,2016.one
-25Ha,1,orange,56,leaf litter,Ectatomma ruidum,single,two,2016,2016.two
-25Ha,2,pink,221,leaf litter,Ectatomma ruidum,single,one,2016,2016.one
-25Ha,2,pink,60,colony,Ectatomma ruidum,single,two,2016,2016.two
-25Ha,2,red,166.5,colony,Ectatomma ruidum,single,one,2016,2016.one
-25Ha,2,yellow,51,leaf litter,Ectatomma ruidum,single,one,2016,2016.one
-25Ha,2,orange,264,colony,Ectatomma ruidum,single,one,2016,2016.one
+site,rep_num,seed_color,distance_cm,destination,ant_species,num_foragers,movement_num,year,ID,colony_letter,plot_side
+Drayton,3,red,51,colony,Ectatomma ruidum,single,one,2015,2015.one,A,South
+Drayton,3,orange,51,colony,Ectatomma ruidum,single,one,2015,2015.one,A,South
+Drayton,3,white,51,colony,Ectatomma ruidum,single,one,2015,2015.one,A,South
+Drayton,3,pink,51,colony,Ectatomma ruidum,single,one,2015,2015.one,A,South
+Drayton,3,yellow,51,colony,Ectatomma ruidum,sinlge,one,2015,2015.one,A,South
+AVA,1,yellow,68.5,colony,Ectatomma ruidum,single,one,2015,2015.one,A,South
+AVA,1,pink,NA,lost,Ectatomma ruidum,single,one,2015,2015.one,,South
+AVA,1,red,334.5,colony,Ectatomma ruidum,single,one,2015,2015.one,B,South
+AVA,1,orange,405.7,colony,Ectatomma ruidum,single,one,2015,2015.one,C,South
+AVA,1,NA,127,lost,Ectatomma ruidum,single,one,2015,2015.one,,South
+AVA,3,red,135,dropped,Ectatomma ruidum,single,one,2015,2015.one,,East
+AVA,3,orange,208.5,colony,Ectatomma ruidum,single,one,2015,2015.one,B,East
+AVA,3,white,120.3,colony,Ectatomma ruidum,single,one,2015,2015.one,A,East
+AVA,3,pink,120.3,colony,Ectatomma ruidum,single,one,2015,2015.one,A,East
+AVA,3,yellow,120.3,colony,Ectatomma ruidum,single,one,2015,2015.one,A,East
+Zetek,1,red,2,dropped,Ectatomma ruidum,single,one,2015,2015.one,,South
+Zetek,1,orange,1.5,dropped,Ectatomma ruidum,single,one,2015,2015.one,,South
+Zetek,2,red,3.2,dropped,Ectatomma ruidum,single,one,2015,2015.one,,West
+25Ha,1,yellow,244,colony,Ectatomma ruidum,single,one,2015,2015.one,A,North
+25Ha,2,orange,70,lost,Ectatomma ruidum,single,one,2015,2015.one,,West
+25Ha,3,orange,108,colony,Ectatomma ruidum,single,one,2015,2015.one,A,South
+25Ha,3,white,108,colony,Ectatomma ruidum,single,one,2015,2015.one,A,South
+25Ha,3,yellow,NA,lost,Ectatomma ruidum,single,one,2015,2015.one,,South
+AVA,1,red,148.3,colony,Ectatomma ruidum,single,two,2015,2015.two,D,South
+AVA,2,yellow,208.5,colony,Ectatomma ruidum,single,two,2015,2015.two,A,North
+AVA,3,orange,28,dropped,Ectatomma ruidum,single,two,2015,2015.two,,East
+Drayton,1,white,20,dropped,Ectatomma ruidum,single,one,2016,2016.one,,South
+Drayton,1,white,33.25,colony,Ectatomma ruidum,sinlge,two,2016,2016.two,A,South
+Drayton,1,orange,56,colony,Ectatomma ruidum,single,one,2016,2016.one,A,South
+Drayton ,1,red,56,colony,Ectatomma ruidum,single,one,2016,2016.one,A,South
+Drayton,1,yellow,56,colony,Ectatomma ruidum,single,one,2016,2016.one,A,South
+Drayton,1,pink,56,colony,Ectatomma ruidum,single,one,2016,2016.one,A,South
+AVA,1,pink,53.5,colony,Ectatomma ruidum,single,one,2016,2016.one,A,East
+AVA,1,pink,13,ground,Ectatomma ruidum,single,two,2016,2016.two,,East
+AVA,1,white,53.5,colony,Ectatomma ruidum,single,one,2016,2016.one,A,East
+AVA,1,orange,53.5,colony,Ectatomma ruidum,single,one,2016,2016.one,A,East
+AVA,1,red,53.5,colony,Ectatomma ruidum,single,one,2016,2016.one,A,East
+Zetek,1,orange,3,ground,Ectatomma ruidum,single,one,2016,2016.one,,West
+Zetek,1,orange,2,ground,Ectatomma ruidum,single,two,2016,2016.two,,West
+Zetek,1,white,96.5,colony,Ectatomma ruidum,single,one,2016,2016.one,A,West
+Zetek,1,white,4.5,ground,Ectatomma ruidum,single,two,2016,2016.two,,West
+Zetek,1,white,4,ground,Ectatomma ruidum,single,three,2016,2016.three,,West
+25Ha,1,yellow,94,colony,Ectatomma ruidum,single,one,2016,2016.one,A,East
+25Ha,1,red,94,colony,Ectatomma ruidum,single,one,2016,2016.one,A,East
+25Ha,1,orange,10,ground,Ectatomma ruidum,single,one,2016,2016.one,,East
+25Ha,1,orange,56,leaf litter,Ectatomma ruidum,single,two,2016,2016.two,,East
+25Ha,2,pink,221,leaf litter,Ectatomma ruidum,single,one,2016,2016.one,,South
+25Ha,2,pink,60,colony,Ectatomma ruidum,single,two,2016,2016.two,B,South
+25Ha,2,red,166.5,colony,Ectatomma ruidum,single,one,2016,2016.one,A,South
+25Ha,2,yellow,51,leaf litter,Ectatomma ruidum,single,one,2016,2016.one,,South
+25Ha,2,orange,264,colony,Ectatomma ruidum,single,one,2016,2016.one,B,South

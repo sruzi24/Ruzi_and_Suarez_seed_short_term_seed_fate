@@ -9,7 +9,7 @@ Observation data of how far Ectatomma ruidum moved seeds of Zanthoxylum ekmanii 
 }
 \usage{data("Ruzi_Suarez_data_Ectatomma_ruidum_distance_deposition")}
 \format{
-  A data frame with 51 observations on the following 10 variables.
+  A data frame with 51 observations on the following 12 variables.
   \describe{
     \item{\code{site}}{a categorical vector - the site at which the seed cache was placed. There are five sites at which seed caches were placed in both years sampled.}
     \item{\code{rep_num}}{a numeric vector - what replicate at that site the seed cache was. The replicate numbers repeat between years.}
@@ -21,6 +21,8 @@ Observation data of how far Ectatomma ruidum moved seeds of Zanthoxylum ekmanii 
     \item{\code{movement_num}}{a categorical vector - which movement the observation belongs to. Can be one, two, or three as three was the highest movement recorded}
     \item{\code{year}}{a numeric vector - the year in which the sampling took place}
     \item{\code{ID}}{a categorical vector - combination of \code{year} and \code{movement_num} separated by a \code{.}}
+    \item{\code{colony_letter}}{a categorical vector - distinct letters are given to different Ectatomma ruidum colonies within each trial date that took seeds}
+    \item(\code{plot_side}}{a categorical vector -  the side of the plot (i.e. site) that seeds were placed at})   
   }
 }
 \details{
