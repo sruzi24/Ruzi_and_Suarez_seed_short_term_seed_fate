@@ -461,6 +461,6 @@ ggsave("Ruzi_Suarez_Figure2a.png", width = 6, height = 3,
        path = figure_path)
 
 
-ggsave("Ruzi_Suarez_FigureS1.png", width = 5, height = 4,
+ggsave("Ruzi_Suarez_Figure2c.png", width = 5, height = 4,
        units = "in", dpi = 300, plot = seedling_boxplot,
        path = figure_path)
