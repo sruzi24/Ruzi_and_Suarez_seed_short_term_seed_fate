@@ -435,8 +435,8 @@ seedling_boxplot <- ggplot(seedling_data, aes(x=Depth2, y=percent))+
         strip.background=element_blank(),
         strip.text.x=element_text(face="bold", colour="black", angle=45, hjust=1, vjust=1, size=16),
         axis.text.y=element_text(colour="black", size=12),
-        axis.title.x=element_text(face="bold", colour="black", size=12,margin = margin(20,0,0,0)),
-        axis.title.y=element_text(face="bold", colour="black", size=12, margin=margin(0,20,0,0)),
+        axis.title.x=element_text(face="bold", colour="black", size=14,margin = margin(20,0,0,0)),
+        axis.title.y=element_text(face="bold", colour="black", size=14, margin=margin(0,20,0,0)),
         panel.grid.major=element_blank(), 
         panel.grid.minor=element_blank(), 
         legend.title=element_text(colour="black", face="bold", size=12),
@@ -461,6 +461,6 @@ ggsave("Ruzi_Suarez_Figure2a.png", width = 6, height = 3,
        path = figure_path)
 
 
-ggsave("Ruzi_Suarez_Figure2c.png", width = 5, height = 4,
+ggsave("Ruzi_Suarez_Figure2c.png", width = 6, height = 4,
        units = "in", dpi = 300, plot = seedling_boxplot,
        path = figure_path)
