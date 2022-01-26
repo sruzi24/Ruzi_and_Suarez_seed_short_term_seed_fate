@@ -6,10 +6,10 @@ Selina A. Ruzi and Andrew V. Suarez.
 
 Published in Biotropica
 
-Seed removal data for two sampling years at five plots. Includes the date of the sampling event, how many seeds were placed, and the number of seeds removed as well as the randomly chosen edge of the plot sampled. Used to determine the amount of seeds removed over two hours in the two sampling years.
+Two hour seed removal information used to determine if seed removal differed over the years. It includes data reanalyzed from Ruzi et al. (2017,2021) that was collected in 2013 as well as the seed removal amounts from this study collected in 2015 and 2016. In 2013, caches consisted of 10 seeds each and there were additional caches of other tree species located at one meter intervals. No leaf litter was move and the area was not baited prior to sampling. In this study (2015 and 2016), caches consisted of 5 seeds. There were no other tree species represented at caches. A portion of the leaf litter was moved and the area was baited prior to sampling.
 
 1. Number of variables: 8
-2. Number of cases/rows: 25
+2. Number of cases/rows: 35
 3. Variable List: 
 Plot: the plot at which the sampling event took place
 Year: the year in which the sampling event took place
