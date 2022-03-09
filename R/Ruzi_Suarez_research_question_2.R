@@ -452,15 +452,15 @@ seedling_boxplot
 
 ## - to save all the figures ####
 ggsave("Ruzi_Suarez_Figure2b.png", width = 6, height = 4.5,
-       units = "in", dpi = 300, plot = depth,
+       units = "in", dpi = 600, plot = depth,
        path = figure_path)
 
 
 ggsave("Ruzi_Suarez_Figure2a.png", width = 6, height = 3,
-       units = "in", dpi = 300, plot = Zan_seeds,
+       units = "in", dpi = 600, plot = Zan_seeds,
        path = figure_path)
 
 
 ggsave("Ruzi_Suarez_Figure2c.png", width = 6, height = 4,
-       units = "in", dpi = 300, plot = seedling_boxplot,
+       units = "in", dpi = 600, plot = seedling_boxplot,
        path = figure_path)

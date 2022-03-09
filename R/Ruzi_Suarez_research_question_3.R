@@ -134,6 +134,6 @@ seed_processing_plot
 ## - save the figures ####
 
 ggsave("Ruzi_Suarez_Figure3a.png", width = 4, height = 4,
-       units = "in", dpi = 300, plot = seed_processing_plot,
+       units = "in", dpi = 600, plot = seed_processing_plot,
        path = figure_path)
 

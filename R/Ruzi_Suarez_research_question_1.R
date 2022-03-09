@@ -370,9 +370,9 @@ destinations
 
 
 ggsave("Ruzi_Suarez_Figure1b.png", width = 12, height = 4,
-       units = "in", dpi = 300, plot = distances_figure,
+       units = "in", dpi = 600, plot = distances_figure,
        path = figure_path)
 
 ggsave("Ruzi_Suarez_Figure1c.png", width = 3.5, height = 4,
-       units = "in", dpi = 300, plot = destinations,
+       units = "in", dpi = 600, plot = destinations,
        path = figure_path)
